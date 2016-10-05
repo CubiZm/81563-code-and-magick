@@ -1,7 +1,7 @@
 # Личный проект «Код и Магия» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Лена Карякина](https://up.htmlacademy.ru/javascript/7/user/81563).
-* Наставник: `Неизвестно`.
+* Наставник: `Сама себе хозяйка`.
 
 ---
 
