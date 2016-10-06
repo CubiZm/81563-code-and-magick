@@ -6,6 +6,7 @@ function getMessage(a, b) {
   var typeOfA = typeof a;
   var typeOfB = typeof b;
   var isArrayA = Array.isArray(a);
+  var isArrayB = Array.isArray(b);
 
   if (typeOfA === "boolean") {
     return a ? "Я попал в" + " " + b : "Я никуда не попал";
@@ -19,7 +20,7 @@ function getMessage(a, b) {
     }, 0);
     return "Я прошёл" + " " + stepsCount + " " + "шагов";
 
-  } else if (isArrayA && Array.isArray(b)) {
+  } else if (isArrayA && isArrayB) {
     var metersCount = a.reduce(function (sum, current, i) {
       return sum + (current * b[i]);
     }, 0);
